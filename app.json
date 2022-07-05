@@ -1,0 +1,6 @@
+{
+  "name": "Pozzani Node Backend",
+  "description": "My implementation of Pozzani's intranet",
+  "repository": "https://github.com/bfrith97/PozIntranet",
+  "keywords": ["node", "express", "intranet"]
+}
