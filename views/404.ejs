@@ -1,0 +1,25 @@
+<%- include('./includes/head.ejs') %>
+<link rel="stylesheet" href="/css/404.css" />
+  </head>
+  <body>
+    <img src="pozzani.png" alt="pozzani logo" class="pozzanilogo" />
+    <div class="mainbackground">
+      <div class="leftcolumn">
+        <div class="welcomebox">
+          <div class="welcometxt">Welcome, (USER)!</div>
+          <button type="submit" class="signoutbtn">
+            <a class="signouttext" href="index">CLICK to sign out</a>
+        </div>
+        <%- include('./includes/nav.ejs') %>
+        
+        <%- include('./includes/useful.ejs') %>
+      </div>
+      <div class="error">
+        <h1>Error 404: Page not found :(</h1>
+        <h2>Please use the navigation bar to the left to return.</h2>
+        <h2><----------------------</h2>
+      </div>
+    </div>
+ 
+    </body>
+    </html>

@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  background-color: rgb(19, 66, 144);
+}
+
+.pozzanilogo {
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+
+.titleinternal {
+  text-align: center;
+  color: white;
+  margin-left: 5px;
+  margin-bottom: 125px;
+  font-size: 60px;
+  font-weight: 1;
+  line-height: 0.75;
+  font-family: sans-serif;
+  transform: scale(1, 0.8);
+  letter-spacing: 7.4px;
+  font-family: "Baloo 2";
+}
+
+/*OBJECT BACKGROUNDS*/
+
+.mainbackground {
+  /* border: 4px solid rgb(103, 103, 145); */
+  background-color: white;
+  width: 300px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr;
+  grid-template-columns: 1.2fr 3fr 0px;
+  border-radius: 10px 10px 0;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.466);
+}
+
+.gobutton {
+  background-color: white;
+  border: 0;
+  grid-column: 3/4;
+  grid-row: 3/4;
+  margin-left: 4px;
+  text-align: center;
+  margin-top: 2px;
+  width: 75px;
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 6px 15px 30px rgba(0, 0, 0, 0.466);
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.gobutton:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.gobutton:active {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.gotext {
+  margin-top: 4px;
+}
+
+.signintitle {
+  grid-row: 1 /2;
+  grid-column: 1/3;
+  color: rgb(19, 66, 144);
+}
+
+.signinemail {
+  border-top: 4px solid rgb(19, 66, 144);
+  border-right: 1px solid rgb(19, 66, 144);
+  text-align: center;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  padding-left: 1px;
+  padding-top: 4px;
+}
+
+.signinpassword {
+  border-top: 2px solid rgb(19, 66, 144);
+  border-right: 1px solid rgb(19, 66, 144);
+  text-align: center;
+  grid-row: 3/4;
+  grid-column: 1/2;
+
+  padding-top: 4px;
+}
+
+.emailentry {
+  border-top: 4px solid rgb(19, 66, 144);
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.emailbox {
+  margin-top: 2px;
+  padding: 5px;
+  width: 198px;
+  height: 15px;
+  border: 0px;
+}
+
+.passwordentry {
+  border-top: 2px solid rgb(19, 66, 144);
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.passwordbox {
+  margin-top: 2px;
+  padding: 5px;
+  width: 198px;
+  height: 17px;
+  border: 0px;
+}
